@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class AoC_main {
     public static void main(String[] args) throws Exception {
         Scanner s = new Scanner(new File("lib\\day1.txt"));
-        List<Integer> inputs = new ArrayList<Integer>();
+        List<String> inputs = new ArrayList<String>();
         while (s.hasNext()){
-            inputs.add(Integer.parseInt(s.next()));
+            inputs.add(s.nextLine());
         }
 		s.close();
 		
