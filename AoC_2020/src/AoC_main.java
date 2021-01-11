@@ -5,14 +5,14 @@ import java.util.Scanner;
 
 public class AoC_main {
     public static void main(String[] args) throws Exception {
-        Scanner s = new Scanner(new File("lib\\day8.txt"));
+        Scanner s = new Scanner(new File("lib\\day25.txt"));
         List<String> inputs = new ArrayList<String>();
         while (s.hasNext()){
             inputs.add(s.nextLine());
         }
 		s.close();
 		
-		new Day8(inputs);
+		new Day25(inputs);
         
     }
 }
